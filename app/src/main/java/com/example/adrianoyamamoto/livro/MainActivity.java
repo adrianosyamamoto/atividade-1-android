@@ -19,6 +19,7 @@ public class MainActivity extends Activity {
             public void onInit(int status) {
                 Locale pt = new Locale("PT", "BR");
                 tts.setLanguage(pt);
+                tts.setSpeechRate(0.75f);
             }
         });
     }
